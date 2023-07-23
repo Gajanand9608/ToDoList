@@ -69,7 +69,7 @@ operations.addEventListener("click", function (e) {
       localStorage.setItem("id", JSON.stringify(id));
       // // Clear the form after submission (optional)
       // task_form.reset();
-
+      task_form.reset();
       removeModal();
       render(data, showAll);
     });

@@ -99,6 +99,7 @@ task_form_edit.addEventListener("submit", function (event) {
       });
       localStorage.setItem("activityLog", JSON.stringify(activityLog));
       localStorage.setItem("data", JSON.stringify(data));
+      task_form_edit.reset();
       removeModalEdit();
       render(data, showAll);
       break;
