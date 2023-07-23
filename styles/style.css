@@ -1,0 +1,54 @@
+:root {
+  --color-dark: rgb(102, 68, 0);
+  --color-medium: rgb(255, 195, 77);
+  --color-light-1: rgb(255, 221, 153);
+  --color-light-2: rgb(255, 230, 179);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: ubuntu sans-serif;
+  font-size: 1.6rem;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none !important;
+}
+
+svg {
+  fill: none;
+  width: 2rem;
+  height: 2rem;
+  stroke-width: 1.5;
+  stroke: #555;
+  margin: 0.25rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.blur {
+  text-decoration: line-through;
+}
+
+.rbl {
+  border-left: 1rem solid red;
+}
+
+.gbl {
+  border-left: 1rem solid green;
+}
+
+.obl {
+  border-left: 1rem solid orange;
+}
